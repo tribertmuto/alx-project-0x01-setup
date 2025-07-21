@@ -1,13 +1,4 @@
-// Interface for a blog post
-export interface PostProps {
-    userId: number;
-    id: number;
-    title: string;
-    body: string;
-  }
-  
-  // Interface for a user
-  export interface UserProps {
+export interface UserProps {
     id: number;
     name: string;
     username: string;
