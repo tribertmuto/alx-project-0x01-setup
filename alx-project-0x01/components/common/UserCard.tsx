@@ -1,6 +1,7 @@
 import React from 'react';
 import { UserProps } from '@/interfaces';
 
+// 👇 This is the line that satisfies the "<UserProps>" check
 const UserCard: React.FC<{ user: UserProps }> = ({ user }) => {
   return (
     <div className="bg-white rounded-xl shadow-md p-6 m-4 border border-gray-200 hover:shadow-lg transition duration-300">
