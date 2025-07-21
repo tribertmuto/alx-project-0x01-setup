@@ -31,8 +31,8 @@ const Users: React.FC<UsersPageProps> = ({ users: initialUsers }) => {
           </button>
         </div>
         <div className="grid grid-cols-3 gap-4 mt-4">
-          {users.map((user, index) => (
-            <UserCard {...user} key={index} />
+          {users.map((user) => (
+            <UserCard {...user} key={user.id} />
           ))}
         </div>
       </main>
